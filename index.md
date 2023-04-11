@@ -9,7 +9,7 @@ When you first input your information it should look like this
 
 
 
-![Image](image1.png)
+![Image](image1 .png)
 
 
 
