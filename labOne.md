@@ -1,16 +1,35 @@
 # Welcome to CSE 15L  
-## Follow along
-The following steps will allow you to get set up for this class by using your course-specific account on ieng6.
+## Follow along to reach success
+The steps will allow you to get set up for this class by using your course-specific account on ieng6.
 
 ## Settting up your account
 Step 1: This [Link](https://sdacs.ucsd.edu/~icc/index.php) will take you to a page that when providing your information will give you access to your username for CSE15L. 
-![Image](http://url/a.png)
+
+When you first input your information it should look like this
+
+
+
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/078261bc2bf7f5fb763623a4ce51b4835884637e/Screen%20Shot%202023-04-10%20at%204.30.05%20PM.png)
+
+
+
+Step 2: To switch to from your regular ucsd account to the CSE15L click the button circled in red.
+
+
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/e219dc86381ed770152623a99e7c03e900190f33/Screen%20Shot%202023-04-10%20at%204.30.37%20PM.png)
+
+
+
+Last Step: for setting up your accout is to reset the password to one of your choice by clicking the link circled in red. *It might take some time for the account to fully work but for now changing the password is the first step.*
+
+
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/292897de4dacaf0c4b970e930b03ede456c651a7/Screen%20Shot%202023-04-10%20at%204.30.53%20PM.png)
 
 
 
 
 ## Installing VSCode
-Step 1:
+Step 1: 
 
 
 ## Remmotly connecting
