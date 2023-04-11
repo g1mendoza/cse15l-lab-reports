@@ -41,10 +41,10 @@ After choosing the appropiate download link, you will be able to access VSCode f
 *once it looks like this you should be set to follow the next steps*
 
 ## Remmotly connecting
-Step 1: From VSCode ( *if using a Mac it should work as following*) Select terminal and it should open up a new terminal where you check if the bottom right corner shows bash as part of it. 
-Look at the sections circled in the following image.
+Step 1: From VSCode (*if using a Mac it should work as following*) select terminal and it you should open up a new terminal, check if the bottom right corner shows bash as part of it. 
+*Look at the sections circled in the following image.*
 
-![Image](
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/dd98f75dec456c77db567af6449f0056939d6aa8/Screen%20Shot%202023-04-10%20at%205.46.26%20PM.png)
 
 
 ## Running Some Commands
