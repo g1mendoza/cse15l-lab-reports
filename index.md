@@ -9,7 +9,7 @@ When you first input your information it should look like this
 
 
 
-![Image](https://github.com/g1mendoza/cse15l-lab-reports/image1.png)
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/5886f2703d28b6bf3ced565379912f4d3a0d933b/image1%20.png)
 
 
 
