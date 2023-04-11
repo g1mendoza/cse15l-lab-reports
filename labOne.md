@@ -29,7 +29,14 @@ Last Step: for setting up your accout is to reset the password to one of your ch
 
 
 ## Installing VSCode
-Step 1: 
+Step 1: Follow this [Link](https://code.visualstudio.com/Download) to install VSCode accoring to your device type. 
+
+
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/77f3db54cd7a7bbe7b08bba979de2cead4af6d80/Screen%20Shot%202023-04-10%20at%205.21.12%20PM.png)
+
+After choosing the appropiate download link, you will be able to access VSCode from your computer. 
+
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/f64b735a7cea6c149186d5b69a03c0e554a1a831/Screen%20Shot%202023-04-05%20at%205.19.29%20PM.png)
 
 
 ## Remmotly connecting
