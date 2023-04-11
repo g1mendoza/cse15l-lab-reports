@@ -48,8 +48,14 @@ Step 1: From VSCode (*if using a Mac it should work as following*) select termin
 
 
 Step 2: Now to access your CSE15L account from VSCode, you type in the following command into the terminal.
+
 `$ ssh cs15lsp23--@ieng6.ucsd.edu`
-*Where you replace -- with your actual username that you got from the beginning.*
+
+*Where you replace -- with your actual username that you got in the beginning.*
+
+
+It should look like this once you enter both your username and password made before.
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/93287757fedc9384bac739033dba235ba524ad00/Screen%20Shot%202023-04-10%20at%206.03.57%20PM.png)
 
 ## Running Some Commands
 Step 1:
