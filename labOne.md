@@ -54,8 +54,10 @@ Step 2: Now to access your CSE15L account from VSCode, you type in the following
 *Where you replace -- with your actual username that you got in the beginning.*
 
 
-It should look like this once you enter both your username and password made before.
+Once you enter your username it will ask for you to type yes to continue to get access to the server. And entering the password will make your terminal look similar to the one below:
+
 ![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/93287757fedc9384bac739033dba235ba524ad00/Screen%20Shot%202023-04-10%20at%206.03.57%20PM.png)
 
 ## Running Some Commands
-Step 1:
+## You are almost done!!!
+You are able to test different command in this section, that were covered in lecture. Such as `cd, ls, pwd, mkdir, and cp`.
