@@ -60,4 +60,6 @@ Once you enter your username it will ask for you to type yes to continue to get 
 
 ## Running Some Commands
 ## You are almost done!!!
-You are able to test different command in this section, that were covered in lecture. Such as `cd, ls, pwd, mkdir, and cp`.
+You are able to test different command in this section, that were covered in lecture. Such as `cd, ls, pwd, mkdir, and cp`. You can type them into the terminal to get the outcome wanted:
+
+![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/457e21f7a5674797f1f9bd74b9dafe0b44ec24af/Screen%20Shot%202023-04-10%20at%206.26.51%20PM.png)
