@@ -64,4 +64,6 @@ You are able to test different command in this section, that were covered in lec
 
 ![Image](https://github.com/g1mendoza/cse15l-lab-reports/blob/457e21f7a5674797f1f9bd74b9dafe0b44ec24af/Screen%20Shot%202023-04-10%20at%206.26.51%20PM.png)
 
-These are some of the expected outcomes from the comands since there are no actual files that we are referencing to. 
+These are some of the expected outcomes from the comands since there are no actual files that we are referencing to. Good practice would be to test them not only from this account but from our computer using the regular terminal.
+
+*The End*
