@@ -16,5 +16,4 @@ Failure inducing input for method `reverseInPlace`
   }
 ```
 this test is meant to have an outcome of an int array that follows this format `{4,3,2,1}` yet the bug in the code causes it to print something else. We see this in the following image.
-
 ![Image](failure1.png)
