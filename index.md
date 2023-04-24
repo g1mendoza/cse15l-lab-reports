@@ -65,7 +65,7 @@ You are able to test different command in this section, that were covered in lec
 ![Image](image8.png)
 These are some of the expected outcomes from the comands since there are no actual files that we are referencing to. We see that when we print `ls -lat` there is something being returned. This is because we are printing the files and folders that could be found in the lat path. 
 
-![Image] (Screen Shot 2023-04-24 at 1.39.50 AM.png)
+![Image](Screen Shot 2023-04-24 at 1.39.50 AM.png)
 Here we try some commands that are more challenging comapared to those we used before.
 
 Good practice would be to test them not only from this account but from our computer using the regular terminal.
