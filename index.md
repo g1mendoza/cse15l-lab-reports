@@ -1,5 +1,11 @@
 # Welcome to CSE 15L *Lab Report 2*
 ## Part 1
+Working with the `StringServer`
+
+When writing the web server i encounter some issues since it did not compile correctly. When I commented out the part of the code that was causing the error it showed that theres no file/directory when i called `/add-message?s=Hello`
+We see this in the following image.
+![Image](part1img1.png)
+
 
 
 
