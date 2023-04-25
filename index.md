@@ -4,7 +4,7 @@
 
 
 ## Part 2
-Bugs from lab 3
+### Bugs from lab 3
 Failure inducing input for method `reverseInPlace` 
 
 ```
@@ -57,4 +57,21 @@ As mentioned bofore one of the reasons why the code does not work as intended is
     }
   }
 ```
+
+
+## Part 3
+### New Knowledge
+These past two labs tought me several new things that I didnt know before.
+
+Starting with the URLHandler:
++ We worked to understand how this program takes a "URL as input and respond with the text of a web page". We got to see this with different taks during the lab.
+![Image](numberurl.png)
+![Image](incrementedurl.png)
+These are some examples of different ways we practiced with the urlhandler interface. We used the given commands to see the effect each had on the url. As seen in the pictures one of them would increment the number that would be outputed, after calling the increment path.
++ We built and run the server on our local computer which was something that i had also not done before.
+
+More from lab 3:
++ All though I had written tests for some of my other classes to test a method I hadnt yet used JUnit. So using JUnit to test and work with was at first  confusing but after seeing the examples given it was simple to follow. 
++ I was able to practice when writing tests for the methods with bugs, and since I sort of knew what the method was supposed to output looking at the error thrown by JUnit it just made it easier to understand how it worked and overall it was a helpful tool to test code and debug it.
+
 
