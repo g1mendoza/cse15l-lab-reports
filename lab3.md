@@ -2,7 +2,6 @@
 ## Commands: find
 this command recursively traverses the given path and list all files in that directory and subdirectories.
 
-
 ### Use *find* to get a single file by its name
 
 ***Ex 1:***
@@ -12,7 +11,9 @@ Running the command:
 Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -name "*.txt" ```
 
 The output is very long but part of it looks like the following:
+
 ....
+
 ```
 technical/plos/journal.pbio.0020146.txt
 
@@ -39,6 +40,7 @@ Running the command:
 Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/government/Media -name "*.txt" ```
 
 The output is very long but part of it looks as follows:
+
 ```
 technical/government/Media/Federal_agency.txt
 
@@ -64,7 +66,6 @@ technical/government/Media/Anthem_Payout.txt
 
 #### What it means:
 So we can tell that find is a very useful command that allows us to find different files that are under a certain category. In the second example we see that we get all files under the technical government and media path that are txt files. This is more useful where there are not this many files since if we dont know the exact name of the file but we know the directory is found in we could find that file from using this command. 
-
 
 ### Use *find* to get a single file by its approximate name
 
@@ -121,8 +122,6 @@ technical/biomed//cvm-2-4-187.txt
 ```
 
 #### What it means:
-
-
 
 ### Use *find* to get files by type
 
@@ -213,6 +212,44 @@ The output looks as follows:
 ```
 its blank!! 
 
+#### What it means:
+
+
+## More for fun
+
+### Since the last two commands didnt return anything, we can do try running multiple commands at once! 
+
+Running the commands:
+
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -iname "*rr*txt" 2>/dev/null -type f ```
+
+The output looks as follows:
+
+```
+technical/government/Media/Terrorist_Attack.txt
+
+technical/government/Media/Barr_sharpening_ax.txt
+
+technical/biomed/rr73.txt
+
+technical/biomed/rr74.txt
+
+technical/biomed/rr171.txt
+
+technical/biomed/rr167.txt
+
+technical/biomed/rr166.txt
+
+technical/biomed/rr172.txt
+
+technical/biomed/rr37.txt
+
+technical/biomed/rr196.txt
+
+technical/biomed/rr191.txt
+
+```
+#### What it means:
 
 ### Work Cited
 - [Website](https://www.redhat.com/sysadmin/linux-find-command) 
