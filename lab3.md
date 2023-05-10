@@ -72,6 +72,34 @@ So we can tell that find is a very useful command that allows us to find differe
 
 Running the command:
 
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/government/Media/ -iname "*law*txt" 2>/dev/null ```
+
+The output looks as follows:
+
+```
+technical/government/Media//Law_Award_from_College.txt
+
+technical/government/Media//Law_Schools.txt
+
+technical/government/Media//Philly_Lawyers.txt
+
+technical/government/Media//AP_LawSchoolDebts.txt
+
+technical/government/Media//Eviction_law.txt
+
+technical/government/Media//Law-school_grads.txt
+
+technical/government/Media//Texas_Lawyer.txt
+
+technical/government/Media//Poverty_Lawyers.txt
+
+technical/government/Media//Library_Lawyers.txt
+
+technical/government/Media//Wilmington_lawyer.txt
+
+technical/government/Media//Lawyer_Web_Survey.txt
+```
+
 
 ### Use *find* to get files by type
 
