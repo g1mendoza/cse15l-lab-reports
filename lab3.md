@@ -2,9 +2,32 @@
 ## Commands: find
 this command recursively traverses the given path and list all files in that directory and subdirectories.
 
-### Use find to get a single file by its approximate name
 
 ### Use find to get a single file by its name
+....
+```
+technical//plos/pmed.0010028.txt
+
+technical//plos/journal.pbio.0020350.txt
+
+technical//plos/journal.pbio.0020190.txt
+
+technical//plos/pmed.0010029.txt
+
+technical//plos/pmed.0020115.txt
+
+technical//plos/journal.pbio.0020147.txt
+
+technical//plos/pmed.0020075.txt
+
+technical//plos/pmed.0020061.txt
+
+technical//plos/pmed.0020210.txt
+
+technical//plos/pmed.0020238.txt
+```
+....
+### Use find to get a single file by its approximate name
 
 ### Use find to get files by type
 
