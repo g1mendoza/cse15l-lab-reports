@@ -194,6 +194,24 @@ technical/911report
 
 Running the command:
 
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type f -empty ```
+
+The output looks as follows:
+``` 
+```
+its blank!! 
+
+
+***Ex 2:***
+
+Running the command:
+ 
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type d -empty ```
+
+The output looks as follows:
+``` 
+```
+its blank!! 
 
 
 ### Work Cited
