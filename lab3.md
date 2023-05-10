@@ -36,12 +36,10 @@ technical/plos/journal.pbio.0020147.txt
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/government/Media ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/government/Media -name "*.txt" ```
 
 The output is very long but part of it looks as follows:
 ```
-technical/government/Media
-
 technical/government/Media/Federal_agency.txt
 
 technical/government/Media/water_fees.txt
@@ -57,6 +55,10 @@ technical/government/Media/Legal-aid_chief.txt
 technical/government/Media/Unusual_Woodburn.txt
 
 technical/government/Media/Funding_cuts_force.txt
+
+technical/government/Media/Good_guys_reward.txt
+
+technical/government/Media/Anthem_Payout.txt
 ``` 
 ...
 
