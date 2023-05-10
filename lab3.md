@@ -72,7 +72,7 @@ So we can tell that find is a very useful command that allows us to find differe
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/government/Media/ -iname "*law*txt" 2>/dev/null ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -iname "*law*txt" 2>/dev/null ```
 
 The output looks as follows:
 
@@ -104,7 +104,7 @@ technical/government/Media//Lawyer_Web_Survey.txt
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/biomed/ -iname "*cvm*txt" 2>/dev/null ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -iname "*cvm*txt" 2>/dev/null ```
 
 The output looks as follows:
 
@@ -118,18 +118,41 @@ technical/biomed//cvm-2-4-180.txt
 technical/biomed//cvm-2-6-286.txt
 
 technical/biomed//cvm-2-4-187.txt
-
-### Use *find* to get files by type
-
 ```
 
 ### What it means:
 
 
+
+### Use *find* to get files by type
+
 ***Ex 1:***
 
 Running the command:
 
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type f ```
+
+The output is very long but part of it looks as follows:
+```
+technical/plos/journal.pbio.0020146.txt
+
+technical/plos/pmed.0020114.txt
+
+technical/plos/pmed.0010028.txt
+
+technical/plos/journal.pbio.0020350.txt
+
+technical/plos/journal.pbio.0020190.txt
+
+technical/plos/pmed.0010029.txt
+
+technical/plos/pmed.0020115.txt
+
+technical/plos/journal.pbio.0020147.txt
+
+technical/plos/pmed.0020075.txt
+
+```
 
 ### Use *find* to get empty files
 
