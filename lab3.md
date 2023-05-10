@@ -4,6 +4,11 @@ this command recursively traverses the given path and list all files in that dir
 
 
 ### Use *find* to get a single file by its name
+
+Running the command
+
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/ ```
+
 ....
 ```
 technical//plos/pmed.0010028.txt
