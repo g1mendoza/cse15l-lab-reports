@@ -8,14 +8,13 @@ this command recursively traverses the given path and list all files in that dir
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -name "*.txt" ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -name "*.txt"```
 
 The output is very long but part of it looks like the following:
 
 ....
 
-```
-technical/plos/journal.pbio.0020146.txt
+```technical/plos/journal.pbio.0020146.txt
 
 technical/plos/pmed.0020114.txt
 
@@ -37,12 +36,11 @@ technical/plos/journal.pbio.0020147.txt
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/government/Media -name "*.txt" ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical/government/Media -name "*.txt"```
 
 The output is very long but part of it looks as follows:
 
-```
-technical/government/Media/Federal_agency.txt
+```technical/government/Media/Federal_agency.txt
 
 technical/government/Media/water_fees.txt
 
@@ -73,12 +71,11 @@ So we can tell that find is a very useful command that allows us to find differe
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -iname "*law*txt" 2>/dev/null ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -iname "*law*txt" 2>/dev/null```
 
 The output looks as follows:
 
-```
-technical/government/Media//Law_Award_from_College.txt
+```technical/government/Media//Law_Award_from_College.txt
 
 technical/government/Media//Law_Schools.txt
 
@@ -105,12 +102,11 @@ technical/government/Media//Lawyer_Web_Survey.txt
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -iname "*cvm*txt" 2>/dev/null ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -iname "*cvm*txt" 2>/dev/null```
 
 The output looks as follows:
 
-```
-technical/biomed//cvm-2-1-038.txt
+```technical/biomed//cvm-2-1-038.txt
 
 technical/biomed//cvm-2-6-278.txt
 
@@ -130,11 +126,11 @@ Using -imane allows us to search for files when we have an idea of what we want 
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type f ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -type f```
 
 The output is very long but part of it looks as follows:
-```
-technical/plos/journal.pbio.0020146.txt
+
+```technical/plos/journal.pbio.0020146.txt
 
 technical/plos/pmed.0020114.txt
 
@@ -151,19 +147,17 @@ technical/plos/pmed.0020115.txt
 technical/plos/journal.pbio.0020147.txt
 
 technical/plos/pmed.0020075.txt
-
 ```
 
 ***Ex 2:***
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type d ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -type d```
 
 The output looks as follows:
 
-```
-technical
+```technical
 
 technical/government
 
@@ -196,7 +190,7 @@ Using -type allows us to look in our directory and find all those documents that
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type f -empty ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -type f -empty```
 
 The output looks as follows:
 ``` 
@@ -208,7 +202,7 @@ its blank!!
 
 Running the command:
  
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type d -empty ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -type d -empty```
 
 The output looks as follows:
 ``` 
@@ -225,12 +219,11 @@ Using -empy after indicating a specific type shows if in that type there is elem
 
 Running the commands:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -iname "*rr*txt" 2>/dev/null -type f ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ```find technical -iname "*rr*txt" 2>/dev/null -type f```
 
 The output looks as follows:
 
-```
-technical/government/Media/Terrorist_Attack.txt
+```technical/government/Media/Terrorist_Attack.txt
 
 technical/government/Media/Barr_sharpening_ax.txt
 
@@ -251,7 +244,6 @@ technical/biomed/rr37.txt
 technical/biomed/rr196.txt
 
 technical/biomed/rr191.txt
-
 ```
 #### What it means:
 Here we see that we are able to use several command options together. This is important since we are able to get more specific facts about what we are trying to find making it easier to access those options that closly match we are looking for. This is extremely useful when there are several files that when using a simple find command will not get us anywhere. 
