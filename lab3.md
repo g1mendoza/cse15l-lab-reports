@@ -100,8 +100,31 @@ technical/government/Media//Wilmington_lawyer.txt
 technical/government/Media//Lawyer_Web_Survey.txt
 ```
 
+***Ex 2:***
+
+Running the command:
+
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/biomed/ -iname "*cvm*txt" 2>/dev/null ```
+
+The output looks as follows:
+
+```
+technical/biomed//cvm-2-1-038.txt
+
+technical/biomed//cvm-2-6-278.txt
+
+technical/biomed//cvm-2-4-180.txt
+
+technical/biomed//cvm-2-6-286.txt
+
+technical/biomed//cvm-2-4-187.txt
 
 ### Use *find* to get files by type
+
+```
+
+### What it means:
+
 
 ***Ex 1:***
 
