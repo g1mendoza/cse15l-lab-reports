@@ -188,6 +188,8 @@ technical/911report
 
 #### What it means:
 
+Using -type allows us to look in our directory and find all those documents that are the type we want. As we see in the first examples typing -type f, loaded all documents that are type file. And this could be done for all types suppoerted such as looking into the directories as well. This is usefull when trying to know how many of these specific types there or simply knowing what excactly there is under those types.
+
 ### Use *find* to get empty files
 
 ***Ex 1:***
@@ -215,6 +217,7 @@ its blank!!
 
 #### What it means:
 
+Using -empy after indicating a specific type shows if in that type there is elements that are empty and dont have any contents. In the exampels given there was no empty files or directories therefor there was no specific file or directory returned as we see with the blank output. This is useful becuase if you are trying to work on a file that is empty this could be used to get that file and work on that, it can also be used to determine if there is a need to make more files if we wished to work on an empty one. Overall there are many uses for this command line options. 
 
 ## More for fun
 
