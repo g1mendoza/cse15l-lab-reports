@@ -254,6 +254,7 @@ technical/biomed/rr191.txt
 
 ```
 #### What it means:
+Here we see that we are able to use several command options together. This is important since we are able to get more specific facts about what we are trying to find making it easier to access those options that closly match we are looking for. This is extremely useful when there are several files that when using a simple find command will not get us anywhere. 
 
 ### Work Cited
 - [Website](https://www.redhat.com/sysadmin/linux-find-command) 
