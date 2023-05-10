@@ -5,8 +5,10 @@ this command recursively traverses the given path and list all files in that dir
 
 ### Use *find* to get a single file by its name
 
-Running the command:
 ***Ex 1:***
+
+Running the command:
+
 Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/ ```
 
 The output is very long but part of it looks like the following:
@@ -33,6 +35,14 @@ technical//plos/pmed.0020210.txt
 technical//plos/pmed.0020238.txt
 ```
 ....
+
+***Ex 2:***
+
+Running the command:
+
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` hello ```
+
+
 ### Use *find* to get a single file by its approximate name
 
 ### Use *find* to get files by type
