@@ -3,7 +3,7 @@
 this command recursively traverses the given path and list all files in that directory and subdirectories.
 
 
-### Use find to get a single file by its name
+### Use *find* to get a single file by its name
 ....
 ```
 technical//plos/pmed.0010028.txt
@@ -27,11 +27,11 @@ technical//plos/pmed.0020210.txt
 technical//plos/pmed.0020238.txt
 ```
 ....
-### Use find to get a single file by its approximate name
+### Use *find* to get a single file by its approximate name
 
-### Use find to get files by type
+### Use *find* to get files by type
 
-### Use find to get empty files
+### Use *find* to get empty files
 
 
 
