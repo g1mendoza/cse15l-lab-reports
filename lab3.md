@@ -63,10 +63,11 @@ technical/government/Media/Anthem_Payout.txt
 ...
 
 #### What it means:
-So we can tell that find is a very useful command that allows us to find different files that are under a certain category we want it to be. In the second example we see that we get all files under the technical government and media path. It 
+So we can tell that find is a very useful command that allows us to find different files that are under a certain category. In the second example we see that we get all files under the technical government and media path that are txt files. This is more useful where there are not this many files since if we dont know the exact name of the file but we know the directory is found in we could find that file from using this command. 
 
 
 ### Use *find* to get a single file by its approximate name
+
 
 ### Use *find* to get files by type
 
