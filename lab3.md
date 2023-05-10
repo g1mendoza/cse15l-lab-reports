@@ -9,30 +9,26 @@ this command recursively traverses the given path and list all files in that dir
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/ ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -name "*.txt" ```
 
 The output is very long but part of it looks like the following:
 ....
 ```
-technical//plos/pmed.0010028.txt
+technical/plos/journal.pbio.0020146.txt
 
-technical//plos/journal.pbio.0020350.txt
+technical/plos/pmed.0020114.txt
 
-technical//plos/journal.pbio.0020190.txt
+technical/plos/pmed.0010028.txt
 
-technical//plos/pmed.0010029.txt
+technical/plos/journal.pbio.0020350.txt
 
-technical//plos/pmed.0020115.txt
+technical/plos/journal.pbio.0020190.txt
 
-technical//plos/journal.pbio.0020147.txt
+technical/plos/pmed.0010029.txt
 
-technical//plos/pmed.0020075.txt
+technical/plos/pmed.0020115.txt
 
-technical//plos/pmed.0020061.txt
-
-technical//plos/pmed.0020210.txt
-
-technical//plos/pmed.0020238.txt
+technical/plos/journal.pbio.0020147.txt
 ```
 ....
 
@@ -61,9 +57,11 @@ technical/government/Media/Legal-aid_chief.txt
 technical/government/Media/Unusual_Woodburn.txt
 
 technical/government/Media/Funding_cuts_force.txt
-```
+``` 
 ...
 
+#### What it means:
+So we can tell that find is a very useful command that allows us to find different files that are under a certain category we want it to be. In the second example we see that we get all files under the technical government and media path. It 
 
 
 ### Use *find* to get a single file by its approximate name
