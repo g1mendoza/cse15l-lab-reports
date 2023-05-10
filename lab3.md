@@ -68,10 +68,23 @@ So we can tell that find is a very useful command that allows us to find differe
 
 ### Use *find* to get a single file by its approximate name
 
+***Ex 1:***
+
+Running the command:
+
 
 ### Use *find* to get files by type
 
+***Ex 1:***
+
+Running the command:
+
+
 ### Use *find* to get empty files
+
+***Ex 1:***
+
+Running the command:
 
 
 
