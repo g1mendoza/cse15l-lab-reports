@@ -120,7 +120,7 @@ technical/biomed//cvm-2-6-286.txt
 technical/biomed//cvm-2-4-187.txt
 ```
 
-### What it means:
+#### What it means:
 
 
 
@@ -153,6 +153,40 @@ technical/plos/journal.pbio.0020147.txt
 technical/plos/pmed.0020075.txt
 
 ```
+
+***Ex 2:***
+
+Running the command:
+
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical -type d ```
+
+The output looks as follows:
+
+```
+technical
+
+technical/government
+
+technical/government/About_LSC
+
+technical/government/Env_Prot_Agen
+
+technical/government/Alcohol_Problems
+
+technical/government/Gen_Account_Office
+
+technical/government/Post_Rate_Comm
+
+technical/government/Media
+
+technical/plos
+
+technical/biomed
+
+technical/911report
+```
+
+#### What it means:
 
 ### Use *find* to get empty files
 
