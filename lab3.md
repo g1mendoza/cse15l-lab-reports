@@ -4,6 +4,12 @@ this command recursively traverses the given path and list all files in that dir
 
 ### Use find to get a single file by its approximate name
 
+### Use find to get a single file by its name
+
+### Use find to get files by type
+
+### Use find to get empty files
+
 
 
 ### Work Cited
