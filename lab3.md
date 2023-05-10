@@ -40,7 +40,30 @@ technical//plos/pmed.0020238.txt
 
 Running the command:
 
-Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` hello ```
+Giselles-MacBook-Pro:docsearch gisellemendoza$ ``` find technical/government/Media ```
+
+The output is very long but part of it looks as follows:
+```
+technical/government/Media
+
+technical/government/Media/Federal_agency.txt
+
+technical/government/Media/water_fees.txt
+
+technical/government/Media/Helping_Out.txt
+
+technical/government/Media/balance_scales_of_justice.txt
+
+technical/government/Media/BusinessWire2.txt
+
+technical/government/Media/Legal-aid_chief.txt
+
+technical/government/Media/Unusual_Woodburn.txt
+
+technical/government/Media/Funding_cuts_force.txt
+```
+...
+
 
 
 ### Use *find* to get a single file by its approximate name
