@@ -122,6 +122,7 @@ technical/biomed//cvm-2-4-187.txt
 ```
 
 #### What it means:
+Using -imane allows us to search for files when we have an idea of what we want find in the dirrectory we are in but we dont know the full name of what we are looking for. In the first example i showed me trying to access those files that include *law* in their name it then provided me with the name of those files which include *law*. This is useful when we might have several files with simliar names and the one we want to access we dont know its full path.
 
 ### Use *find* to get files by type
 
