@@ -3,8 +3,14 @@
 Working with the `StringServer`
 
 Here is what the code for StringServer looks like:
-![Image](Screen Shot 2023-05-10 at 9.34.24 PM.png)
+![Image](stringserver.png)
 
+
+Here we see how how using /add-messages works with single strings:
+![Image](single.png)
+- The method called while trying these diferent paths are the handleRequest method, which basically takes the string given such as *Giselle* and it returns it on the screen as we see in the imgae. 
+- The relavant argumnets are URL url which are basically shows the URL and the contents of it such as the path and query.
+- The values of the relevant fields change depending on requests made on the server.As we see in the code if both conditions are meet then it updates to the string of choice given if not it remains unchanged. 
 
 
 
