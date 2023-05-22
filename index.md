@@ -34,8 +34,10 @@ Commands ran:
 vim ListExamples.java
 
 ![Image](Step6(openvim).png)
+To get to the top of the file:
 
 *Keys Pressed:*
 ```` 
-
+<up>
 ```` 
+49 times. 
