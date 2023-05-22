@@ -21,3 +21,21 @@ git<space>clone<space>https://github.com/ucsd-cse15l-s23/lab7
 ```` 
 
 this was the way to clone the repository accoring to the lab task so that is what i did. 
+
+
+### Step 6: Running the Tests
+
+
+
+
+### Step 7: Edit the code in the files
+
+Commands ran:
+vim ListExamples.java
+
+![Image](Step6(openvim).png)
+
+*Keys Pressed:*
+```` 
+
+```` 
