@@ -2,12 +2,23 @@
 ## Part 1
 Working with the `StringServer`
 
-When writing the web server i encounter some issues since it did not compile correctly. When I commented out the part of the code that was causing the error it showed that theres no file/directory when i called `/add-message?s=Hello`
-We see this in the following image.
-![Image](part1img1.png)
+Here is what the code for StringServer looks like:
+![Image](stringserver.png)
 
 
+Here we see how how using /add-messages works:
+![Image](single.png)
+- The method called while trying these diferent paths are the handleRequest method, which basically takes the string given such as *Giselle* and it returns it on the screen as we see in the imgae. 
+- The relavant argumnets are URL url which are basically shows the URL and the contents of it such as the path and query.
+- The values of the relevant fields change depending on requests made on the server.As we see in the code if both conditions are meet then it updates to the string of choice given if not it remains unchanged. 
 
+More exampels to show how how using /add-messages works with single strings:
+![Image](seconds.png)
+
+Just like before we see that:
+- The method called while trying these diferent paths are the handleRequest method, which basically takes the string given such as *Howareyou* and it returns it on the screen as we see in the imgae. 
+- The relavant argumnets are URL url which are basically shows the URL and the contents of it such as the path and query.
+- The values of the relevant fields change depending on requests made on the server.As we see in the code if both conditions are meet then it updates to the string of choice given if not it remains unchanged. 
 
 ## Part 2
 ### Bugs from lab 3
@@ -79,4 +90,3 @@ These are some examples of different ways we practiced with the urlhandler inter
 More from lab 3:
 + All though I had written tests for some of my other classes to test a method I hadnt yet used JUnit. So using JUnit to test and work with was at first  confusing but after seeing the examples given it was simple to follow. 
 + I was able to practice when writing tests for the methods with bugs, and since I sort of knew what the method was supposed to output looking at the error thrown by JUnit it just made it easier to understand how it worked and overall it was a helpful tool to test code and debug it.
-
