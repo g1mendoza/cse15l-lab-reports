@@ -9,4 +9,4 @@
 ```` 
 <up><enter>
 ````
-Since i have the ssh command on my rencent commands in my terminal so its just saved there. 
+Since i have the ssh command on my rencent commands in my terminal so its just saved there. Then from here I was able to log in with my passwaord and wait for it to load. 
