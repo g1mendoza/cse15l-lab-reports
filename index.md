@@ -24,6 +24,16 @@ this was the way to clone the repository accoring to the lab task so that is wha
 
 
 ### Step 6: Running the Tests
+commands ran:
+
+```` 
+Giselles-MacBook-Pro:lab7 gisellemendoza$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+Giselles-MacBook-Pro:lab7 gisellemendoza$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```` 
+
+these then alloweed me to access the failed tests as we see below:
+![Image](Step6(RunFail).png)
+
 
 
 
@@ -33,7 +43,7 @@ this was the way to clone the repository accoring to the lab task so that is wha
 Commands ran:
 vim ListExamples.java
 
-![Image](Step6(openvim).png)
+![Image]()
 To get to the top of the file:
 
 *Keys Pressed:*
