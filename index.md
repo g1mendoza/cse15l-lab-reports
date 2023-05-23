@@ -35,19 +35,44 @@ these then alloweed me to access the failed tests as we see below:
 ![Image](Step6(RunFail).png)
 
 
-
-
-
 ### Step 7: Edit the code in the files
 
 Commands ran:
 vim ListExamples.java
 
-![Image]()
-To get to the top of the file:
+![Image](Step7(useVim).png)
+
+This then allowed me to view the code and see what i had to fix for the tests to work. 
 
 *Keys Pressed:*
 ```` 
-<up>
+<up> <up> <up> <up> <up> <up>
 ```` 
-49 times. 
+
+```` 
+<delete> <delete> <delete> <delete> <delete> <delete>
+```` 
+
+```` 
+<down> <down> <down> <down> <down> <down>
+```` 
+
+and then i typed:
+```` 
+index2
+```` 
+
+And then i was able to see this:
+![Image](Step7(editCode).png)
+
+to exit i did:
+
+```` 
+Ctrl-c
+Ctrl-c
+```` 
+
+```` 
+:wq
+```` 
+
