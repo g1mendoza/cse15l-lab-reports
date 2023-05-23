@@ -76,3 +76,16 @@ Ctrl-c
 :wq
 ```` 
 
+
+
+### Step 8: Running the tests
+
+Here the same commands were ran: 
+```` 
+Giselles-MacBook-Pro:lab7 gisellemendoza$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+Giselles-MacBook-Pro:lab7 gisellemendoza$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```` 
+
+![Image](Step8(testSuccess).png)
+
+
