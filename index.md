@@ -89,3 +89,11 @@ Giselles-MacBook-Pro:lab7 gisellemendoza$ java -cp .:lib/hamcrest-core-1.3.jar:l
 ![Image](Step8(testSuccess).png)
 
 
+### Step 9: Commit and push
+
+To run this i did the following:
+![Image](Step9(commit).png)
+
+It did not save due to this error i got with my password. 
+
+
