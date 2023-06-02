@@ -49,6 +49,9 @@ These commands then alloweed me to access the failed tests as we see below:
 Commands ran:
 vim ListExamples.java
 
+*Keys Pressed:*
+vim ```` <space>```` ListExamples.java ```` <enter>````
+  
 ![Image](Step7(useVim).png)
 
 This then allowed me to view the code and see what i had to fix for the tests to work. 
@@ -71,10 +74,11 @@ and then i typed:
 index2
 ```` 
 
-And then i was able to see this:
+ And then i was able to see this:
+  
 ![Image](Step7(editCode).png)
 
-to exit i did:
+To exit i did:
 
 ```` 
 Ctrl-c
@@ -89,18 +93,30 @@ Ctrl-c
 
 ### Step 8: Running the tests
 
-Here the same commands were ran: 
-```` 
-Giselles-MacBook-Pro:lab7 gisellemendoza$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-Giselles-MacBook-Pro:lab7 gisellemendoza$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-```` 
+Commands ran:
 
+Giselles-MacBook-Pro:lab7 gisellemendoza$ ````  javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```` 
+
+*Keys Pressed:*
+
+javac ```` <space>````  -cp ```` <space>````  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+
+Commands ran:
+  
+Giselles-MacBook-Pro:lab7 gisellemendoza$ ```` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```` 
+  
+*Keys Pressed:*
+  
+javac ```` <space>````  -cp ```` <space>````  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests ````<enter>```` 
+  
+ I was now able to see the tests pass as we can see below: 
+ 
 ![Image](Step8(testSuccess).png)
 
 
 ### Step 9: Commit and push
 
-To run this i did the following:
+To run this I did the following:
 ![Image](Step9(commit).png)
 
 It did not save due to this error i got with my password. 
