@@ -118,6 +118,11 @@ javac ```` <space>````  -cp ```` <space>````  .:lib/hamcrest-core-1.3.jar:lib/ju
 
 To run this I did the following:
 ![Image](Step9(commit).png)
+  
+git ```` <space>```` add ```` <space>```` ListExamples.java ```` <enter>````
+  
+ 
+git  ```` <space>```` push  ```` <space>```` origin  ```` <space>```` main ```` <enter>````
 
 It did not save due to this error i got with my password. 
 
