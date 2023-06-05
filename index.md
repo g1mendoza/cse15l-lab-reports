@@ -29,4 +29,6 @@ Pt3:
 
 
 ### Student trying the Feedback:
+We see that the student is tracing through the code and comes across the wanted array during the first iteration of the for loop, yet once it continies the for loop we see that it takes it back to the first array. 
 ![Image](studentTrace.jpg)
+ 
