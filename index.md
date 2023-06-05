@@ -1,6 +1,9 @@
 # Welcome to CSE 15L *Lab Report 5*
 ## Working with the Debugging
 
+
+## Part 1 Student Bug:
+
 ### The ticket:
 Pt1:
 ![Image](p1.png)
@@ -42,3 +45,8 @@ Code fixed:
 Tests now:
 ![Image](Passed.png)
  
+ 
+ 
+ 
+## Part 2: Reflection
+Something that i learning during lab in the second half of this quarter that i didnt know before is that usign vim in the command line to edit java files. This was soemthing i had never done since i didnt know what vim is, it was sort of challenging undestanding how to commit those changes after but the actual editing was not that hard for me to undestand. Something cool in general is using github, i had hear of it before but never did anything with it so being able to use it for this class was very cool, learnig how do to simple thigns with it was enjoyable. 
